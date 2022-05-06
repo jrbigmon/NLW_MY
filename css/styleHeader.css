@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 71px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    background-color: #00856F;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header h1{    
+    width: 132.86px;
+    margin-left: 24px;
+}
+.header #doctor{
+   font-weight: normal;
+}
+.header img{
+    background-color: #00856F;
+    height: 40px;
+    width: 40px;
+    margin-right: 24px;
+}
